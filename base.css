@@ -1,0 +1,100 @@
+html,body {
+  background-color: #F5F5EE !important;
+  font-size: large;
+  width: auto;
+} 
+
+ul {
+  margin-bottom: 0.5rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400;
+}
+.row{
+  width: 100% !important;
+}
+div > i {
+  width: 100%;
+  max-width: 4px;
+}
+.contact-info {
+  font-size: 16px;
+}
+.contact-border {
+  border-right: 2px solid #a29b9b;
+  padding-right: .5rem;
+}
+.right-tab-header {
+  background-color: skyblue;
+}
+.social-link {
+  text-decoration: underline;
+}
+.description {
+  font-size: small;
+  margin-bottom: 0px;
+}
+.section-header {
+  border-bottom: 2px solid #a29b9b;
+  display: inline-flex;
+  width: 100%;
+}
+.sub-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.sub-section-header{
+  display: flex;
+  justify-content: space-between;
+}
+.sub-section-text {
+  padding-left: 1em;
+}
+/* .sub-section-text ul{
+  width: 90%;
+} */
+.tech-stack {
+  padding-left: 10px; 
+}
+.col-xs-12, .col-sm-12, .col-md-12 {
+  padding-right:0px 
+}
+.activity{
+  width: 70%;
+}
+.activity h6 {
+  font-weight: 700;
+}
+#stack-tech {
+  display: flex;
+  margin: auto; 
+  width: 80%;
+}
+#stack-tech .sub-section {
+  margin-bottom: 0;
+  margin-top: 0.3rem;
+}
+#stack-tech ul {
+  margin-bottom: 0px; 
+  padding-left:0px; 
+}
+#stack-tech .section-header{
+  border-bottom: none;
+  margin: auto ;
+  width: 30%;
+}
+#stack-tech h5{
+  margin-top: 2px;
+}
+@media only screen and (width: 767px) {
+  #right-tab-header {
+    height: 5%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  #right-tab-header { height: 12%; }
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=cyrillic,cyrillic-ext');
