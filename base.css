@@ -1,6 +1,6 @@
 html,body {
-  background-color: #F5F5EE !important;
-  font-size: large;
+  background-color:#fcfcfc !important;
+  font-size: larger;
   width: auto;
 } 
 
@@ -70,8 +70,10 @@ div > i {
 }
 #stack-tech {
   display: flex;
-  margin: auto; 
-  width: 80%;
+  margin: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 100%;
 }
 #stack-tech .sub-section {
   margin-bottom: 0;
